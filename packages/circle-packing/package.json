@@ -1,38 +1,39 @@
 {
-  "name": "@nivo/circle-packing",
-  "version": "0.50.0",
-  "license": "MIT",
-  "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
-  },
-  "keywords": [
-    "nivo",
-    "dataviz",
-    "react",
-    "d3",
-    "charts",
-    "circle-packing"
-  ],
-  "main": "./index.js",
-  "files": [
-    "README.md",
-    "index.js",
-    "cjs/",
-    "umd/"
-  ],
-  "dependencies": {
-    "@nivo/core": "0.50.0",
-    "d3-hierarchy": "^1.1.8",
-    "lodash": "^4.17.4",
-    "react-motion": "^0.5.2",
-    "recompose": "^0.26.0"
-  },
-  "peerDependencies": {
-    "prop-types": "^15.5.10",
-    "react": ">= 16.2.0 < 17.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@nivo/circle-packing",
+    "version": "0.50.0",
+    "license": "MIT",
+    "author": {
+        "name": "Raphaël Benitte",
+        "url": "https://github.com/plouc"
+    },
+    "keywords": [
+        "nivo",
+        "dataviz",
+        "react",
+        "d3",
+        "charts",
+        "circle-packing"
+    ],
+    "main": "./index.js",
+    "files": [
+        "README.md",
+        "index.js",
+        "cjs/",
+        "umd/",
+        "src/"
+    ],
+    "dependencies": {
+        "@nivo/core": "0.50.0",
+        "d3-hierarchy": "^1.1.8",
+        "lodash": "^4.17.4",
+        "react-motion": "^0.5.2",
+        "recompose": "^0.26.0"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.5.10",
+        "react": ">= 16.2.0 < 17.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
